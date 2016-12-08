@@ -6,7 +6,7 @@ var config = {
     './main.js',
   ],
   output: {
-    path: path.join(__dirname, "www"),
+    path: path.join(__dirname, 'public'),
     filename: 'bundle.js',
   },
   module: {
@@ -17,7 +17,7 @@ var config = {
         loaders: ['babel'],
       },
     ],
-    }
+  },
     resolveLoader: {
       root: [
         path.join(__dirname, 'node_modules'),
